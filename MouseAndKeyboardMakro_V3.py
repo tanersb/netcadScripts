@@ -60,7 +60,6 @@ def on_scroll(x, y, dx, dy):
     elif dy > 0:print(f"Scrolled down")
 
 
-IOPIIPIUPUIPIU
 def on_click(x, y, button, pressed):
     global mouse_count
     mouse_count += 1
