@@ -1,0 +1,28 @@
+import numpy as np
+
+# İki noktanın kordinatları
+x1, y1 = 3, 4
+x2, y2 = 6, 8
+
+# Olması gereken mesafeyi hesapla
+required_distance = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+# Mevcut mesafeyi hesapla
+current_distance = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+# Eşit miktarlarda birbirinden uzaklaşarak veya yakınlaşarak olması gereken mesafeyi ayarla
+x_distance = (x2 - x1) * required_distance / current_distance
+y_distance = (y2 - y1) * required_distance / current_distance
+
+# Yeni noktaların kordinatlarını hesapla
+x1_new = x1 + x_distance / 2
+y1_new = y1 + y_distance / 2
+x2_new = x2 - x_distance / 2
+y2_new = y2 - y_distance / 2
+
+print("Yeni noktaların kordinatları: (", x1_new, ",", y1_new, ") ve (", x2_new, ",", y2_new, ")")
+Bu kod bloğu iki nokta arasındaki mevcut mesafeyi hesaplar, sonra iki nokta arasındaki olması gereken mesafeyi ayarlar
+
+
+
+

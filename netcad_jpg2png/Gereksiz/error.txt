@@ -1,0 +1,41 @@
+Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: D:\pyhton_calismalarim\yazi2png\Python-botting-butorial-part-2\Number Recognition 1.py 
+Traceback (most recent call last):
+  File "D:\pyhton_calismalarim\yazi2png\Python-botting-butorial-part-2\Number Recognition 1.py", line 3, in <module>
+    from pytesseract import *
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pytesseract\__init__.py", line 2, in <module>
+    from .pytesseract import ALTONotSupported
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pytesseract\pytesseract.py", line 39, in <module>
+    import pandas as pd
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\__init__.py", line 55, in <module>
+    from pandas.core.api import (
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\core\api.py", line 24, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\core\groupby\__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (  # noqa: F401
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\core\groupby\generic.py", line 44, in <module>
+    from pandas.core.frame import DataFrame
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\core\frame.py", line 115, in <module>
+    from pandas.core.series import Series
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\core\series.py", line 84, in <module>
+    import pandas.plotting
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\plotting\__init__.py", line 59, in <module>
+    from pandas.plotting._core import (
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\plotting\_core.py", line 17, in <module>
+    import pandas.plotting._matplotlib  # noqa
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\plotting\_matplotlib\__init__.py", line 3, in <module>
+    from pandas.plotting._matplotlib.boxplot import (
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pandas\plotting\_matplotlib\boxplot.py", line 4, in <module>
+    from matplotlib.artist import setp
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\__init__.py", line 107, in <module>
+    from . import cbook, rcsetup
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\rcsetup.py", line 28, in <module>
+    from matplotlib.fontconfig_pattern import parse_fontconfig_pattern
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\fontconfig_pattern.py", line 15, in <module>
+    from pyparsing import (Literal, ZeroOrMore, Optional, Regex, StringEnd,
+  File "C:\Users\JT\AppData\Local\Programs\Python\Python36\lib\site-packages\pyparsing\__init__.py", line 130, in <module>
+    __version__ = __version_info__.__version__
+AttributeError: 'version_info' object has no attribute '__version__'
+>>> 
